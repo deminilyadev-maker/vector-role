@@ -149,21 +149,6 @@ Tox](https://github.com/deminilyadev-maker/vector-role/blob/main/screenshots/fin
 
 ------------------------------------------------------------------------
 
-# Результат
-
-В репозитории реализованы два Molecule-сценария:
-
-``` text
-molecule/
-├── default/
-└── podman/
-```
-
-Также добавлен:
-
-``` text
-tox.ini
-```
 
 ## Git tags
 
