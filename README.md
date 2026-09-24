@@ -165,10 +165,6 @@ molecule/
 tox.ini
 ```
 
-Репозиторий:
-
-<https://github.com/deminilyadev-maker/vector-role>
-
 ## Git tags
 
 В репозитории используются версии:
@@ -177,10 +173,4 @@ tox.ini
 1.0.0 - bare module
 1.2.0 - Molucule
 1.3.0 - Tox
-```
-
-Для текущего задания добавлен тег:
-
-``` text
-1.3.0
 ```
