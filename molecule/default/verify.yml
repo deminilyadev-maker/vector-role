@@ -1,0 +1,18 @@
+---
+# Purpose: assert that the instance really ended up in the expected state.
+# Molecule calls this playbook with `molecule verify`.
+- name: Verify Vector
+  hosts: all
+  become: true
+
+  tasks:
+    - name: Check Vector directory
+      ansible.builtin.stat:
+        path: /opt/vector
+      register: vector
+
+    - name: Assert Vector installed
+      ansible.builtin.assert:
+        that:
+          - vector.stat.exists
+          - vector.stat.isdir
