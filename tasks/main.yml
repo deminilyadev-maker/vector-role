@@ -10,6 +10,8 @@
     url: "https://packages.timber.io/vector/{{ vector_version }}/vector-{{ vector_version }}-x86_64-unknown-linux-musl.tar.gz"
     dest: "/tmp/vector-{{ vector_version }}.tar.gz"
     mode: "0644"
+    headers:
+      User-Agent: "Mozilla/5.0"
 
 - name: Unarchive Vector
   ansible.builtin.unarchive:
