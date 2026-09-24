@@ -53,6 +53,7 @@ Run the complete Molecule test scenario:
 
 ```bash
 molecule test
+```
 
 ## Versioning
 
@@ -61,8 +62,7 @@ The role uses Semantic Versioning.
 Current version:
 
 ```text
-1.2.0
-```
+1.2.0```
 
 ## Author
 
