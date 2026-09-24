@@ -29,7 +29,6 @@ test](https://github.com/deminilyadev-maker/vector-role/blob/main/screenshots/Ub
 molecule/default/
 ```
 
-Для данного этапа отдельный скриншот не прикладывается.
 
 ## 3. Добавление дистрибутивов и тестирование роли
 
@@ -46,7 +45,7 @@ test](https://github.com/deminilyadev-maker/vector-role/blob/main/screenshots/Ve
 
 В `verify.yml` добавлены проверки работоспособности роли `vector-role`.
 
-Для данного этапа отдельный скриншот не прикладывается.
+
 
 ## 5. Повторный запуск тестирования
 
@@ -74,7 +73,7 @@ tox.ini
 tox-requirements.txt
 ```
 
-Для данного этапа отдельный скриншот не прикладывается.
+
 
 ## 2. Запуск контейнера
 
@@ -87,7 +86,7 @@ tox-requirements.txt
 docker run --privileged=True -v <path_to_repo>:/opt/vector-role -w /opt/vector-role -it aragast/netology:latest /bin/bash
 ```
 
-Для данного этапа отдельный скриншот не прикладывается.
+
 
 ## 3. Запуск `tox` внутри контейнера
 
@@ -97,7 +96,7 @@ docker run --privileged=True -v <path_to_repo>:/opt/vector-role -w /opt/vector-r
 tox
 ```
 
-Для данного этапа отдельный скриншот не прикладывается.
+
 
 ## 4. Создание облегчённого сценария Molecule с Podman
 
@@ -131,7 +130,7 @@ commands =
     {posargs:molecule test -s podman --destroy always}
 ```
 
-Для данного этапа отдельный скриншот не прикладывается.
+
 
 ## 6. Запуск `tox`
 
@@ -175,9 +174,9 @@ tox.ini
 В репозитории используются версии:
 
 ``` text
-1.0.0
-1.2.0
-1.3.0
+1.0.0 - bare module
+1.2.0 - Molucule
+1.3.0 - Tox
 ```
 
 Для текущего задания добавлен тег:
