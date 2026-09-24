@@ -36,6 +36,24 @@ vector_version: "0.34.1"
 
 This role has no dependencies on other Ansible roles.
 
+## Testing
+
+The role is tested using Molecule and Docker.
+
+The Molecule scenario verifies that Vector is installed correctly.
+
+The test checks:
+
+- the `/opt/vector` directory exists;
+- the `/opt/vector` path is a directory.
+
+## Run Tests
+
+Run the complete Molecule test scenario:
+
+```bash
+molecule test
+
 ## Versioning
 
 The role uses Semantic Versioning.
