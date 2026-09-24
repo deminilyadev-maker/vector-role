@@ -171,6 +171,6 @@ tox.ini
 
 ``` text
 1.0.0 - bare module
-1.2.0 - Molucule
+1.2.0 - Molecule
 1.3.0 - Tox
 ```
