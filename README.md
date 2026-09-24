@@ -43,7 +43,7 @@ The role uses Semantic Versioning.
 Current version:
 
 ```text
-1.0.0
+1.2.0
 ```
 
 ## Author
